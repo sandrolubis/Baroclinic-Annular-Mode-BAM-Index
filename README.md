@@ -1,4 +1,4 @@
-# Baroclinic Annular Mode (BAM) Indices (1979–2020)
+# Baroclinic Annular Mode (BAM) Index
 
 **Sandro W. Lubis, Ph.D.**
 Pacific Northwest National Laboratory (PNNL)
