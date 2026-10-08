@@ -15,7 +15,7 @@ Lubis, S. W., Leung, L. R., & Battalio, J. M. (2026). **More Frequent Atmospheri
 
 The BAM is defined separately for each hemisphere as the leading EOF of zonal-mean EKE over 20°–70° latitude and 1000–200 hPa (Thompson & Woodworth, 2014, Lubis et al., 2026).
 
-The seasonal cycle is removed, and the data are weighted by √cos(φ), where φ is latitude. For NH BAM, zonal wavenumbers less than 4 are removed from the wind fields before calculating EKE to exclude planetary-scale wave contributions (Thompson & Li, 2015).
+The seasonal cycle is removed, and the data are weighted by √cos(φ), where φ is latitude. For NH BAM, zonal wavenumbers less than 4 are removed from the wind fields before calculating EKE to exclude planetary-scale wave contributions (Thompson & Li, 2015, Lubis et al., 2026).
 
 Positive and negative BAM events are identified using a 5-day smoothed BAM index exceeding ±1 standard deviation.
 
