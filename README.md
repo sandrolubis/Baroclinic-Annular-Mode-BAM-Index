@@ -18,14 +18,14 @@ Positive and negative BAM events are identified using a 5-day smoothed BAM index
 
 ## Data Files
 
-- `pc.eke_NH_1979_2020.nc` — Northern Hemisphere
+- `pc.eke_NH_1979_2020.nc` — Northern Hemisphere 
 - `pc.eke_SH_1979_2020.nc` — Southern Hemisphere
 
 Each NetCDF file contains daily PC time series with dimensions `pc(evn, time)`.
 
 | Dimension | Description |
 |---|---|
-| `evn=1` | PC1: Baroclinic Annular Mode (BAM) |
+| `evn=1` | PC1: **Baroclinic Annular Mode (BAM) **|
 | `evn=2` | PC2: Second EOF mode |
 | `evn=3` | PC3: Third EOF mode |
 | `time` | Daily time steps (1979–2020; 15,341 days) |
