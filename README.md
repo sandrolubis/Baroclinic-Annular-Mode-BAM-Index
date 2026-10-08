@@ -1,6 +1,6 @@
 # Baroclinic Annular Mode (BAM) Indices (1979–2020)
 
-This repository provides daily principal component (PC) time series of the first three empirical orthogonal function (EOF) modes of zonal-mean eddy kinetic energy (EKE) for the Northern Hemisphere (NH) and Southern Hemisphere (SH) during 1979–2020.
+This repository provides daily principal component (PC) time series of the first three empirical orthogonal function (EOF) modes of zonal-mean eddy kinetic energy (EKE) for the Northern Hemisphere (NH) and Southern Hemisphere (SH) during 1979–2020 based on ERA5 Reanalysis.
 
 ## Methodology
 
