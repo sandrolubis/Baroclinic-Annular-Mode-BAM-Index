@@ -2,6 +2,12 @@
 
 This repository provides daily principal component (PC) time series of the first three empirical orthogonal function (EOF) modes of zonal-mean eddy kinetic energy (EKE) for the Northern Hemisphere (NH) and Southern Hemisphere (SH) during 1979–2020 based on ERA5 Reanalysis.
 
+## Citation
+
+If you use these BAM indices in your research, please cite:
+
+Lubis, S. W., Leung, L. R., & Battalio, J. M. (2026). **More Frequent Atmospheric Rivers and Associated Precipitation Extremes Induced by the Baroclinic Annular Mode.** *Geophysical Research Letters* (Accepted).
+
 ## Methodology
 
 The BAM is defined separately for each hemisphere as the leading EOF of zonal-mean EKE over 20°–70° latitude and 1000–200 hPa (Thompson & Woodworth, 2014).
@@ -36,13 +42,6 @@ pc2 = ds.pc.isel(evn=1)  # PC2
 pc3 = ds.pc.isel(evn=2)  # PC3
 ```
 
-## Citation
 
-If you use these BAM indices in your research, please cite:
 
-Lubis, S. W., Leung, L. R., & Battalio, J. M. (2026). **More Frequent Atmospheric Rivers and Associated Precipitation Extremes Induced by the Baroclinic Annular Mode.** *Geophysical Research Letters* (Accepted).
 
-## References
-
-- Thompson, D. W. J., & Woodworth, J. D. (2014).
-- Thompson, D. W. J., & Li, Y. (2015).
