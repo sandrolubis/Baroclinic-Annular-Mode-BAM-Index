@@ -19,6 +19,16 @@ The seasonal cycle is removed, and the data are weighted by √cos(φ), where φ
 
 Positive and negative BAM events are identified using a 5-day smoothed BAM index exceeding ±1 standard deviation.
 
+
+<p align="center">
+  <img src="BAM_structure_spectrum.png" width="800" alt="BAM Spatial Structure and Power Spectrum">
+</p>
+
+<p align="center">
+  <b>Figure 1.</b> Spatial structure and power spectrum of the Baroclinic Annular Mode (BAM) in the Northern and Southern Hemispheres.
+</p>
+
+
 ## Data Files
 
 - `pc.eke_NH_1979_2020.nc` — Northern Hemisphere 
