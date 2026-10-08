@@ -21,7 +21,7 @@ Positive and negative BAM events are identified using a 5-day smoothed BAM index
 
 
 <p align="center">
-  <img src="BAM_structure_spectrum.png" width="800" alt="BAM Spatial Structure and Power Spectrum">
+  <img src="BAM_structure_spectrum2.png" width="800" alt="BAM Spatial Structure and Power Spectrum">
 </p>
 
 <p align="center">
