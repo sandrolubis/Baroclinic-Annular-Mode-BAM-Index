@@ -31,30 +31,28 @@ Positive and negative BAM events are identified using a 5-day smoothed BAM index
 
 ## Data Files
 
-- `pc.eke_NH_1979_2020.nc` — Northern Hemisphere 
+### NetCDF Files
+- `pc.eke_NH_1979_2020.nc` — Northern Hemisphere
 - `pc.eke_SH_1979_2020.nc` — Southern Hemisphere
 
-Each NetCDF file contains daily PC time series with dimensions `pc(evn, time)`.
+Each file contains daily PC time series: `pc(evn, time)`.
 
-| Dimension | Description |
-|---|---|
-| `evn=1` | PC1: **Baroclinic Annular Mode (BAM) **|
-| `evn=2` | PC2: Second EOF mode |
-| `evn=3` | PC3: Third EOF mode |
-| `time` | Daily time steps (1979–2020; 15,341 days) |
+- PC1: Baroclinic Annular Mode (BAM)
+- PC2: Second EOF mode
+- PC3: Third EOF mode
 
-## Python Example
+### TXT Files
+- `BAM_index_NH_1979_2020.txt` — Northern Hemisphere
+- `BAM_index_SH_1979_2020.txt` — Southern Hemisphere
 
-```python
-import xarray as xr
+Each TXT file contains five columns:
 
-ds = xr.open_dataset("pc.eke_NH_1979_2020.nc")
+year mon day bam(nrm) bam(non-nrm)
 
-bam = ds.pc.isel(evn=0)  # BAM (PC1)
-pc2 = ds.pc.isel(evn=1)  # PC2
-pc3 = ds.pc.isel(evn=2)  # PC3
-```
+- `year`, `mon`, `day`: Date
+- `bam(nrm)`: Normalized BAM index (PC1)
+- `bam(non-nrm)`: Unnormalized BAM index (PC1)
 
-
+All datasets cover 1979–2020 (15,341 daily values).
 
 
