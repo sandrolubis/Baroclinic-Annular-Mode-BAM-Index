@@ -43,16 +43,6 @@ year mon day bam(nrm) bam(non-nrm)
 - `bam(nrm)`: Normalized BAM index (PC1)
 - `bam(non-nrm)`: Unnormalized BAM index (PC1)
 
-### NetCDF Files
-- `pc.eke_NH_1979_2020.nc` — Northern Hemisphere
-- `pc.eke_SH_1979_2020.nc` — Southern Hemisphere
-
-Each file contains daily PC time series: `pc(evn, time)`.
-
-- PC1: Baroclinic Annular Mode (BAM)
-- PC2: Second EOF mode
-- PC3: Third EOF mode
-
 All datasets cover 1979–2020 (15,341 daily values).
 
 
