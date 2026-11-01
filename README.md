@@ -17,8 +17,6 @@ The BAM is defined separately for each hemisphere as the leading EOF of zonal-me
 
 The seasonal cycle is removed, and the data are weighted by √cos(φ), where φ is latitude. For NH BAM, zonal wavenumbers less than 4 are removed from the wind fields before calculating EKE to exclude planetary-scale wave contributions (Thompson & Li, 2015, Lubis et al., 2026).
 
-Positive and negative BAM events are identified using a 5-day smoothed BAM index exceeding ±1 standard deviation.
-
 
 <p align="center">
   <img src="BAM_structure_spectrum_final.png" width="800" alt="BAM Spatial Structure and Power Spectrum">
